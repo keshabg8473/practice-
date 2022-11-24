@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>lists,table and forms</title>
+</head>
+<!-- lists -->
+<body>
+    <!-- lists -->
+    <!-- <ul type="disc">
+        <li>home </li>
+        <li>about</li>
+        <li>services</li>
+        <li>contact</li>
+    </ul> -->
+    <ol type="I">
+        <li>home</li>
+        <li>about</li>
+        <li>services</li>
+        <li>content</li>
+    </ol>
+    <hr>
+    <!-- table -->
+    <div>
+        <table>
+            <!-- caption are used as header tag -->
+            <caption>this are caption but i donot the caption what is</caption>
+            <thead>
+                <tr>
+                    <th>sr.no</th>
+                    <th>player name</th>
+                    <th>max score</th>
+                    <th>game</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>1</td>
+                    <td>keshab </td>
+                    <td>23</td>
+                    <td>football</td>
+                </tr>
+                <tr>
+                    <td>2</td>
+                    <td>rahul </td>
+                    <td>45</td>
+                    <td>football</td>
+                </tr>
+                <tr>
+                    <td>3</td>
+                    <td>dawgalu</td>
+                    <td>256</td>
+                    <td>football</td>
+                </tr>
+             
+            </tbody>
+        </table>   
+    </div><hr>
+    <!-- <table>
+    <caption>life expectancy by current age</caption>
+    <tr border="4px">
+        <th colspan="2">65</th>
+        <th colspan="2">40</th>
+        <th colspan="2">20</th>
+    </tr>
+    <tr>
+        <th>men</th>
+        <th>women</th>
+        <th>men</th>
+        <th>women</th>
+        <th>men</th>
+        <th>women</th>
+     
+    </tr>
+    <tr>
+        <td>82</td>
+        <td>85</td>
+        <td>78</td>
+        <td>82</td>
+        <td>77</td>
+        <td>81</td>
+    </tr>
+ </table> -->
+ <table>
+    <caption>favorite and least favarite things</caption>
+    <tr>
+        <th><th></th></th>
+        <th>bob</th>
+        <th>alice</th>
+    </tr>
+    <tr>
+    <th rowspan="2">favorite</th>
+    <th>color</th>
+    <td>blue</td>
+    <td>purple</td>
+    </tr>
+   <tr>
+    <th>flover</th>
+    <td>banana</td>
+    <td>chocolate</td>
+   </tr>
+   <tr>
+    <th rowspan="2">least favorite</th>
+    <th>color</th>
+    <td>yellow</td>
+    <td>ppink</td>
+   </tr>
+   <tr>
+    <th>flover</th>
+    <td>mint</td>
+    <td>walnut</td>
+   </tr>
+ </table><hr>
+   <!-- form  -->
+   <form action="backend.php">
+    <div>
+        <label for="name">name:</label>
+       <input type="text" name="my name" id="name">
+    </div><br>
+    <div>
+        roll:<input type="text" name="roll">
+    </div><br>
+    <div>
+     email:<input type="mail" name="myemail">
+    </div><br>
+    <div>
+        date:<input type="date">
+    </div><br>
+    <div>
+        <label for="radio">gender:</label>
+       mail<input type="radio" name="myGender" id="radio"> femail<input type="radio" name="myGender"> other<input type="radio" name="myGender">
+       </div><br>
+       <div>
+        <label for="checkbox">are you eliible:</label>
+          <input type="checkbox" name="myeligibilty" id="checkbox">
+       </div><br>
+       <div>
+             wriite about yourself: <br><textarea name="text" id="" cols="30" rows="10">write yourself</textarea>  
+       </div><br>
+       <div>
+      
+        <select name="car" id="luxery car">
+   
+            <option value="car">choice your car</option>
+            <option value="scurpio">scurpio</option>
+            <option value="breeza">breeza</option>
+            <option value="suzuky">suzuky</option>
+        </select>
+       </div><br>
+       <div>
+        <input type="submit">
+        <input type="reset">
+       </div><br>
+   </form><hr>
+   <!-- embedding video:video tag is used to paly videos in html  -->
+   <div>
+     <!-- <div>
+        <iframe width="200" height="150" src="https://www.youtube.com/embed/KqJikDzb3l4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe> <br>
+        <iframe src="https://www.bing.com" frameborder="0" width="892"></iframe><br>
+    </div> -->
+    <div>
+        <video src="html.mp4" controls width="400" height="250"></video>
+        <video src="haidaya.mp4" height="250" width="400" controls></video>
+        <!-- loop:video replay used
+        autoplau:autoply video -->
+        <video src="apna.mp4" height="250" width="400" controls></video>  
+    </div>
+   </div>
+
+</body>
+
+</html>
